@@ -1,0 +1,47 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#splash {
+    background-image: url(img/splash.jpg);
+    background-position: center;
+    background-size: 40vw;
+    width: 40vw;
+    height: 100vh;
+}
+
+#pageForm {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#pageForm > section {
+    height: 33vh;
+    border: 10px solid green;
+}
+
+#signupForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid blue;
+}
+
+.formItem {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+#signupForm > div {
+    width: 25%;
+    margin: 5%;
+}
